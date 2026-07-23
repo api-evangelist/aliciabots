@@ -1,7 +1,24 @@
 aid: aliciabots
-name: aliciabots
-description: aliciabots is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aliciabots.png
+name: AliciaBots
+description: AliciaBots is a maritime robotics company, backed by Techstars, that builds
+  autonomous robot teams for cleaning and inspecting ship hulls. Its flagship Roverclean
+  robot operates independently to remove marine growth and monitor hull condition in
+  real time without interrupting a vessel's voyage, using self-learning adaptive systems,
+  precision cleaning, and remote monitoring and control to improve fuel efficiency and
+  help operators meet IMO regulatory standards. AliciaBots does not currently publish a
+  public API or developer program; this profile tracks the company as a network lead.
 url: https://raw.githubusercontent.com/api-evangelist/aliciabots/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +31,12 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Robotics
+- Maritime
+- Autonomous Systems
+- Hull Cleaning
+- Shipping
+- IoT
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/aliciabots-domain-security.yml
 - type: Website
   url: https://aliciabots.com/
+- type: Blog
+  url: https://aliciabots.com/blog
+- type: Support
+  url: https://aliciabots.com/contact-us
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
